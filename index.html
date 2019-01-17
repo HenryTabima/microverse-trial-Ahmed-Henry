@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Welcome</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -24,6 +24,7 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" alt="logo" id="header-img">
       <nav class="navbar navbar-default" id="nav-bar">
         <div class="container-fluid">
+
           <!-- <div class="navbar-header">
             <a class="navbar-brand" href="#">
             </a>
@@ -33,13 +34,47 @@
             <li><a href="#features" class="nav-link">Features </a></li>
             <li><a href="#howItWorks" class="nav-link">How it works </a></li>
             <li><a href="#pricing" class="nav-link">Pricing </a></li>
+     <!--     <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#" class="nav-link">Features </a></li>
+            <li><a href="#" class="nav-link">How it works </a></li>
+            <li><a href="#" class="nav-link">Pricing </a></li>
+>>>>>>> Stashed changes
           </ul>
-        </div>
-      </nav>
+        </div> -->
+       </nav>
     </header>
     <section id="features"></section>
-    <section id="howItWorks"></section>
-    <section id="pricing"></section>
+    <section id="howItWorks">
+      <p>This video gives you a idea about our Product</p>
+      <iframe width="420" height="315"
+              src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1" id="video" >
+      </iframe>
+    </section>
+    <section id="pricing">
+    </section>
+    <div class="container">
+      <form id="form" method="post">
+        <fieldset>
+          <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email" type="email" tabindex="2" required id="email">
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Number" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="What do you think of our Product?..." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <input name="submit" type="submit" id="submit" data-submit="...Sending" value="Submit"/>
+        </fieldset>
+      </form>
+    </div>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
